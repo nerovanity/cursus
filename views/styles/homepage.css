@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: #5041BC;
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+}
+
+/*@media (min-width: 768px) {
+  .search-box {
+    margin-left: calc(50% - 480px); 
+  }
+}*/
+
+.nav-bar {
+  width: 15%;
+  height: 100vh; 
+  background-color: #5041BC;
+}
+
+.Page {
+  width: 85%;
+  height: 100vh; 
+  background-color: #FFFFFF;
+  border-top-left-radius: 40px; 
+  border-bottom-left-radius: 40px;
+}
+
+.menu {
+  margin: 130px 10px 10px 26px;
+  color: #FFFFFF; 
+  font-weight: 600;  
+}
+
+.menu::before {
+  content: "";
+  display: block;
+  width: 12%; 
+  height: 1px; 
+  background-color: #FFFFFF; 
+  position: absolute;
+  top: 110px; 
+  left: 1.5%;
+}
+
+.manage{
+  margin: 34px 10px 10px 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.search-box {
+  display: flex;
+  width: 100%;
+  max-width: 380px; 
+  margin: -56px auto; 
+  margin-left: 367px;
+  border-radius: 45px; 
+  border: 2px solid #5041BC; 
+  overflow: hidden; 
+  background-color: #F5F3FF;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #F5F3FF;
+}
+
+.search-icon {
+  width: 40px; 
+  height: 40px; 
+  cursor: pointer;
+  padding: 10px;
+}
+
+.add-admin-button {
+  padding: 2px 20px;
+  background-color: #624DE3;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 38px auto; 
+  margin-left: -798px; 
+  width: 19rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  border: none;
+}
+
+.add-client-button{
+  padding: 10px 20px;
+  background-color: #624DE3;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 39px auto; 
+  margin-left: 10px; 
+  width: 14rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  border: none;
+}
+
+.admin-list-button{
+  padding: 10px 20px;
+  background-color: #624DE3;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 38.5px auto; 
+  margin-right: 15px; 
+  width: 14rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  border: none;
+}
+
+.rectan1{
+  background-color: white;
+  width: 90%;
+  height: 3rem;
+  margin: 18px auto; 
+  margin-left: 15%;
+  border-top-left-radius: 40px; 
+  border-bottom-left-radius: 40px;
+}
+
+.manage-navbar{
+  color: #624DE3;
+  font-weight: bold;
+  font-size: 17px;
+  margin: -55px auto;
+  margin-left: 40%;
+}
+
+.dash-icon{
+  width: 42px; 
+  height: 43px; 
+  padding: 9px;
+  margin: 20px auto;
+  margin-left: 23%;
+}
+
+.Add-client-nav{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 17px;
+  margin: -54px auto;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+.client-icon{
+  width: 42px; 
+  height: 43px; 
+  padding: 6px;
+  margin: 16px auto;
+  margin-left: 23%;
+}
+
+.rectan2{
+  background-color:#5041BC;
+  width: 90%;
+  height: 3rem;
+  margin: 18px auto; 
+  margin-left: 15%;
+  border-top-left-radius: 40px; 
+  border-bottom-left-radius: 40px;
+}
+
+.line2{
+  content: "";
+  display: block;
+  width: 12%; 
+  height: 1px; 
+  background-color: #FFFFFF; 
+  position: absolute;
+  top: 780px; 
+  left: 1.5%;
+}
+
+.Profil{
+  margin: 483px 34%;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.Logout{
+  width: 15rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  margin-left: 8%;
+  background-color: #FFFFFF;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: self-end;
+}
+
+.Logout-button{
+  margin-top: -466px;
+}
+
+.logo-ut{
+  color:#5041BC;
+  font-weight: 600;
+  margin-left: 29%;
+  margin-bottom: 5%;
+}
+
+.logout-icon{
+  width: 42px; 
+  height: 43px; 
+  cursor: pointer;
+  padding: 6px;
+  margin: 4px auto;
+  margin-left: -72%;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF; /* Match the background color of the table head */
+  z-index: 2; /* Ensure the header stays above the body rows */
+
+}
+
+.btn-cursus{
+  background-color:#FF7F3E;
+  /*margin: -67px;*/
+  border-radius: 0.8rem;
+  border: none;
+  width: 109px;
+  height: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  margin-right: 5rem;
+}
+
+.btn-modifier{
+    width: 109px;
+    height: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2175;
+    color: #ffffff;
+    background-color: #624de3;
+    border-radius: 0.8rem;
+    border: none;
+    margin-right: 5rem;
+}
+
+.btn-delete{
+    width: 109px;
+    height: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2175;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.table-responsive{
+    height: 70vh;
+    margin-top: 98px;
+    margin-left: 4%;
+    font-size: 22px;
+}
+
+.act{
+  margin: 212px;
+}
+
+.sta{
+  margin: 41px;
+}
+
+.table>:not(caption)>*>* {
+  padding: 0.7rem 0.5rem;
+}
+
+.bg-termine{
+  color: #41bc63;
+  background-color: #ebf9f1;
+  border-radius: 2rem;
+  width: 155px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #41bc63;
+}
+
+.bg-cour{
+  color: #bc9241;
+  background-color: #fbf8f3;
+  border-radius: 2rem;
+  width: 155px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #bc9241;
+}
+
+.bg-echec{
+  color: #bc4141;
+  background-color: #fbf3f3;
+  border-radius: 2rem;
+  width: 155px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #bc4141;
+}
+.loader-container{
+  z-index: 99;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.loader {
+  position: relative;
+  left: 40%;
+  top: 35%;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

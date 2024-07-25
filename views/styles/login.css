@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+ .left{
+    width: 50%;
+    height: 100vh;
+    background-image: url(../assets/imag.jpg);
+    background-size: cover;
+ }
+
+ img{
+    width: 650px;
+    position: absolute;
+    top: 25%;
+    
+ }
+
+ .left {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.right{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+
+.con{
+    color: #050C9C;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    top: 29%;
+    font-weight: 800;
+    left: 37%;
+    transform: translateX(-50%);
+}
+
+.ema{
+    color: black;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 39%;
+    font-weight: 500;
+    left: 23%;
+    transform: translateX(-50%);
+}
+
+.emarec {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px;
+    top: 41.5%;
+    width: 500px;
+    left: 21%;
+}
+
+.textbox1 {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 96.8%;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+}
+
+.textbox1:focus {
+    outline: none;
+}
+
+.mod{
+    color: black;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 48.4%;
+    font-weight: 500;
+    left: 24.5%;
+    transform: translateX(-50%);
+}
+
+.modrec{
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px;
+    top: 51%;
+    width: 500px;
+    left: 21%;
+}
+
+.textbox2 {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 96.8%;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+}
+
+.textbox2:focus {
+    outline: none;
+}
+
+.butcon {
+    position: absolute;
+    top: 59%;
+    left: 21%;
+    width: 500px;
+    height: 47px;
+    color: white;
+    background-color: #050C9C;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: Montserrat, 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.butcon:hover{
+    color: #050C9C;
+    background-color: white;
+    border: 1px solid #050C9C;
+}
+
+.error-field{
+    color: red;
+    font-size: 14px;
+    font-family: Poppins, 'Source Sans Pro';
+    margin-top: 24px;
+    position: absolute;
+    top: 53%;
+    left: 22%;
+  }

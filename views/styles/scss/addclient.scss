@@ -1,0 +1,898 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.2rem;
+}.addclient-fwh {
+  width: 100%;
+  height: 188.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+
+  .rectangle-a35 {
+    border-radius: 4rem;
+    width: 52.3rem;
+    height: 188.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #5041bc;
+  }
+  .profil-sana-Vfq {
+    position: absolute;
+    left: 8.4rem;
+    font-size: 1.6rem;
+    font-family: Montserrat, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 10.2rem;
+    height: 2rem;
+    top: 181.2rem;
+    font-weight: 600;
+    line-height: 1.2175;
+    color: #ffffff;
+  }
+  .divider-nQ3 {
+    top: 179.4rem;
+    background-color: #d0d5dd;
+    width: 25.1rem;
+    height: 0.1rem;
+    position: absolute;
+    left: 2.2rem;
+  }
+  .divider-K95 {
+    width: 25.1rem;
+    height: 0.1rem;
+    position: absolute;
+    left: 2.2rem;
+    top: 11.4rem;
+    background-color: #d0d5dd;
+  }
+  .group-1-F2j {
+    cursor: pointer;
+    position: absolute;
+    left: 2.2rem;
+    top: 18.6rem;
+    width: 25.1rem;
+    height: 4.8rem;
+
+    .dashboard-aqh {
+      display: flex;
+      align-items: center;
+      background-color: #5041bc;
+      border-radius: 0.4rem;
+      box-sizing: border-box;
+      padding: 1.2rem 2.4rem 1.2rem 1.2rem;
+      width: 100%;
+      height: 100%;
+
+      .icon-iBD {
+        width: 2.4rem;
+        height: 2.4rem;
+        position: relative;
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+        margin-right: 0.8rem;
+      }
+      .manage-appointment-Ssu {
+        line-height: 1.2175;
+        color: #ffffff;
+        font-family: Montserrat, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin-bottom: 0.2rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+      }
+    }
+  }
+  .title-Yvw {
+    font-weight: 600;
+    line-height: 1.2175;
+    width: 4.8rem;
+    height: 2rem;
+    position: absolute;
+    left: 2.2rem;
+    top: 14.4rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .rectangle-TY7 {
+    height: 188.4rem;
+    position: absolute;
+    left: 29.3rem;
+    top: 0;
+    background-color: #ffffff;
+    border-radius: 4rem;
+    width: 125.1rem;
+  }
+  .frame-237693-Byu {
+    padding: 0.8rem 1.1rem 1.5rem 1.1rem;
+    width: 29.9rem;
+    height: 4.8rem;
+    border-radius: 2.4rem;
+    box-sizing: border-box;
+    left: 2.3rem;
+    top: 26.4rem;
+    background-color: #ffffff;
+    position: absolute;
+
+    .research-6qy {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 0.225rem 0rem 0rem 0.3rem;
+      width: 11.9rem;
+
+      .ion-person-outline-pmy {
+        margin: 0rem 1.1rem 0.325rem 0rem;
+        width: 1.8001rem;
+        height: 1.95rem;
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .add-client-wrb {
+        margin-top: 0.275rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.2175;
+        color: #5041bc;
+        font-family: Montserrat, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+    }
+  }
+  .photo-FcP {
+    height: 21.8rem;
+    position: absolute;
+    left: 34.9rem;
+    top: 11.4rem;
+    width: 17.5rem;
+
+    .photo-PTh {
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1.6rem;
+      font-size: 1.8rem;
+    }
+    .form-WoD {
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+      padding: 7rem 1.1rem 6.3rem 1rem;
+      width: 100%;
+      height: 17.5rem;
+      border: dashed 0.1rem #c1bbeb;
+      background-color: #ffffff;
+
+      .drag-and-drop-or-click-here-to-select-file-FF1 {
+        font-family: Poppins, 'Source Sans Pro';
+        max-width: 15.4rem;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #a098ae;
+      }
+    }
+  }
+  .informations-dtudient-7Y7 {
+    left: 34.9rem;
+    font-size: 4rem;
+    color: #5041bc;
+    font-family: Montserrat, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 50rem;
+    height: 4.9rem;
+    position: absolute;
+    top: 4.2rem;
+    font-weight: 700;
+    line-height: 1.2175;
+  }
+  .informations-du-parents-1Nb {
+    position: absolute;
+    left: 34.9rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2175;
+    color: #5041bc;
+    font-family: Montserrat, 'Source Sans Pro';
+    height: 4.9rem;
+    top: 126.5rem;
+    white-space: nowrap;
+    width: 51rem;
+  }
+  .first-name-WKM {
+    height: 8.5rem;
+    position: absolute;
+    left: 57.9rem;
+    top: 11.4rem;
+    width: 57.7rem;
+
+    .nom-et-prnom-dum {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+    .form-mm5 {
+      box-sizing: border-box;
+      width: 100%;
+      font-weight: 400;
+      white-space: nowrap;
+      border: solid 0.1rem #c1bbeb;
+      border-radius: 0.5rem;
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      background-color: #ffffff;
+    }
+  }
+  .first-name-FAT {
+    height: 8.5rem;
+    position: absolute;
+    left: 59rem;
+    top: 133.2rem;
+    width: 57.7rem;
+
+    .nom-et-prnom-MzB {
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .form-6B5 {
+      box-sizing: border-box;
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      font-weight: 400;
+      line-height: 1.5;
+      white-space: nowrap;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      width: 100%;
+      font-size: 1.4rem;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+    }
+  }
+  .date-birth-N8b {
+    width: 57.7rem;
+    height: 8.5rem;
+    position: absolute;
+    left: 57.9rem;
+    top: 21.4rem;
+
+    .date-et-lieu-de-naissance-JY3 {
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+    .form-q2B {
+      width: 100%;
+      height: 4.8rem;
+      display: flex;
+      align-items: center;
+
+      .form-rhy {
+        padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        background-color: #ffffff;
+        margin-right: 2.4rem;
+        height: 100%;
+        white-space: nowrap;
+        box-sizing: border-box;
+        width: 27.65rem;
+        font-weight: 400;
+        color: #a098ae;
+        border-radius: 0.5rem;
+        font-family: Poppins, 'Source Sans Pro';
+        border: solid 0.1rem #c1bbeb;
+        flex-shrink: 0;
+      }
+      .form-787 {
+        border-radius: 0.5rem;
+        line-height: 1.5;
+        white-space: nowrap;
+        border: solid 0.1rem #c1bbeb;
+        flex-shrink: 0;
+        height: 100%;
+        width: 27.65rem;
+        font-weight: 400;
+        color: #a098ae;
+        font-family: Poppins, 'Source Sans Pro';
+        background-color: #ffffff;
+        padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+        font-size: 1.4rem;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .date-birth-ZF1 {
+    top: 143.6rem;
+    width: 57.7rem;
+    height: 8.5rem;
+    position: absolute;
+    left: 59rem;
+
+    .date-et-lieu-de-naissance-6Ew {
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1rem;
+    }
+    .form-E6F {
+      width: 100%;
+      height: 4.8rem;
+      display: flex;
+      align-items: center;
+
+      .form-z5R {
+        line-height: 1.5;
+        font-family: Poppins, 'Source Sans Pro';
+        border-radius: 0.5rem;
+        flex-shrink: 0;
+        margin-right: 2.4rem;
+        height: 100%;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+        color: #a098ae;
+        white-space: nowrap;
+        border: solid 0.1rem #c1bbeb;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        width: 27.65rem;
+      }
+      .form-FX9 {
+        padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+        width: 27.65rem;
+        height: 100%;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        background-color: #ffffff;
+        white-space: nowrap;
+        border: solid 0.1rem #c1bbeb;
+        border-radius: 0.5rem;
+        color: #a098ae;
+        box-sizing: border-box;
+        font-weight: 400;
+        font-family: Poppins, 'Source Sans Pro';
+        flex-shrink: 0;
+      }
+    }
+  }
+  .email-XDm {
+    width: 57.7rem;
+    height: 8.5rem;
+    position: absolute;
+    left: 57.9rem;
+    top: 31.4rem;
+
+    .email-Tt7 {
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+    }
+    .form-owy {
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      width: 100%;
+      font-size: 1.4rem;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+    }
+  }
+  .phone-swq {
+    height: 9.1rem;
+    position: absolute;
+    left: 57.9rem;
+    top: 41.4rem;
+    width: 57.7rem;
+
+    .tlephone-cuR {
+      margin-bottom: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+    .form-m1d {
+      box-sizing: border-box;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      width: 100%;
+      font-size: 1.4rem;
+      border-radius: 0.5rem;
+    }
+  }
+  .services-2TM {
+    font-family: Poppins, 'Source Sans Pro';
+    width: 7.7rem;
+    top: 63.7rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #303972;
+    white-space: nowrap;
+    height: 2.7rem;
+    position: absolute;
+    left: 81.8rem;
+  }
+  .phone-9H5 {
+    width: 57.7rem;
+    height: 9.1rem;
+    position: absolute;
+    left: 59rem;
+    top: 154rem;
+
+    .tlephone-5wR {
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+    .form-dCF {
+      line-height: 1.5;
+      white-space: nowrap;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+      font-size: 1.4rem;
+      font-weight: 400;
+      font-family: Poppins, 'Source Sans Pro';
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      width: 100%;
+      color: #a098ae;
+    }
+  }
+  .address-7NK {
+    top: 52rem;
+    width: 57.7rem;
+    height: 9.1rem;
+    position: absolute;
+    left: 57.9rem;
+
+    .address-rao {
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1.6rem;
+    }
+    .form-CPm {
+      box-sizing: border-box;
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      width: 100%;
+      font-weight: 400;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+  }
+  .address-6EF {
+    width: 57.7rem;
+    height: 9.1rem;
+    position: absolute;
+    left: 59rem;
+    top: 165rem;
+
+    .address-RXR {
+      margin-bottom: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #303972;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+    .form-kJo {
+      width: 100%;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.5;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+      padding: 1.5rem 1.4rem 1.2rem 1.4rem;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+    }
+  }
+  .button-qLF {
+    height: 6rem;
+    position: absolute;
+    left: 123.6rem;
+    top: 178.3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 4rem;
+    width: 24rem;
+
+    .draft-button-ZX9 {
+      height: 100%;
+      box-sizing: border-box;
+      font-size: 1.8rem;
+      display: flex;
+      font-weight: 400;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      border: solid 0.2rem #4d44b5;
+      border-radius: 4rem;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-right: 1.1rem;
+      width: 11.7rem;
+      line-height: 1.5;
+      color: #4d44b5;
+      align-items: center;
+    }
+    .submit-button-qjZ {
+      height: 100%;
+      line-height: 1.5;
+      white-space: nowrap;
+      display: flex;
+      justify-content: center;
+      border-radius: 4rem;
+      width: 11.2rem;
+      font-family: Poppins, 'Source Sans Pro';
+      background-color: #4d44b5;
+      font-weight: 400;
+      color: #ffffff;
+      align-items: center;
+      flex-shrink: 0;
+      font-size: 1.8rem;
+    }
+  }
+  .group-237787-LRR {
+    box-sizing: border-box;
+    width: 57.7rem;
+    height: 4.8rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border: solid 0.1rem #c1bbeb;
+    padding: 1.4rem 1.5rem 1.2rem 1.4rem;
+    position: absolute;
+    left: 57.9rem;
+    top: 67.9rem;
+    display: flex;
+    align-items: center;
+
+    .conseil-en-orientation-cNw {
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0.1rem 35.8rem 0rem 0rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+    .rectangle-23998-jCf {
+      margin-bottom: 0.2rem;
+      width: 2rem;
+      height: 2rem;
+      border: solid 0.25rem #5041bc;
+      box-sizing: border-box;
+      border-radius: 0.7rem;
+      flex-shrink: 0;
+    }
+  }
+  .form-pzo {
+    position: absolute;
+    left: 57.9rem;
+    top: 73.9rem;
+    border-radius: 0.5rem;
+    width: 57.7rem;
+    height: 5.7rem;
+
+    .form-ZBh {
+      width: 57.7rem;
+      position: absolute;
+      border-radius: 0.5rem;
+      height: 4.8rem;
+      left: 0;
+      top: 0;
+      border: solid 0.1rem #c1bbeb;
+      box-sizing: border-box;
+      background-color: #ffffff;
+    }
+    .traduction-tDy {
+      top: 1.5rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a098ae;
+      width: 8.8rem;
+      height: 2.1rem;
+      position: absolute;
+      left: 1.4rem;
+      font-size: 1.4rem;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+    .rectangle-23999-o63 {
+      box-sizing: border-box;
+      border-radius: 0.7rem;
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      left: 54.2rem;
+      top: 1.4rem;
+      border: solid 0.25rem #5041bc;
+    }
+  }
+  .form-hhD {
+    box-sizing: border-box;
+    position: absolute;
+    left: 57.9rem;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 1.4rem 1.5rem 1.2rem 1.4rem;
+    width: 57.7rem;
+    height: 4.8rem;
+    top: 79.9rem;
+    align-items: center;
+    border: solid 0.1rem #c1bbeb;
+    background-color: #ffffff;
+
+    .logement-okF {
+      flex-shrink: 0;
+      margin: 0.1rem 45.6rem 0rem 0rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+    .rectangle-24000-8Xd {
+      width: 2rem;
+      height: 2rem;
+      border: solid 0.25rem #5041bc;
+      box-sizing: border-box;
+      border-radius: 0.7rem;
+      flex-shrink: 0;
+      margin-bottom: 0.2rem;
+    }
+  }
+  .form-Rmd {
+    padding: 1.4rem 1.5rem 1.2rem 1.4rem;
+    left: 57.9rem;
+    top: 86.2rem;
+    display: flex;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 4.8rem;
+    position: absolute;
+    align-items: center;
+    border: solid 0.1rem #c1bbeb;
+    border-radius: 0.5rem;
+    width: 57.7rem;
+
+    .inscription-et-suivi-LNo {
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0.1rem 38.7rem 0rem 0rem;
+      font-size: 1.4rem;
+    }
+    .rectangle-24001-G1Z {
+      box-sizing: border-box;
+      border-radius: 0.7rem;
+      flex-shrink: 0;
+      margin-bottom: 0.2rem;
+      width: 2rem;
+      height: 2rem;
+      border: solid 0.25rem #5041bc;
+    }
+  }
+  .form-jA3 {
+    align-items: center;
+    border: solid 0.1rem #c1bbeb;
+    height: 4.8rem;
+    top: 92.5rem;
+    width: 57.7rem;
+    position: absolute;
+    left: 57.9rem;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding: 1.4rem 1.5rem 1.2rem 1.4rem;
+
+    .visa-zbm {
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0.1rem 49.7rem 0rem 0rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+    .rectangle-24002-Has {
+      box-sizing: border-box;
+      border-radius: 0.7rem;
+      flex-shrink: 0;
+      margin-bottom: 0.2rem;
+      width: 2rem;
+      height: 2rem;
+      border: solid 0.25rem #5041bc;
+    }
+  }
+  .form-XVD {
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding: 1.4rem 1.4rem 1.2rem 1.4rem;
+    height: 4.8rem;
+    left: 57.8rem;
+    top: 98.8rem;
+    background-color: #ffffff;
+    width: 57.7rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border: solid 0.1rem #c1bbeb;
+
+    .etudes-ltranger-Bpf {
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0.1rem 39.8rem 0rem 0rem;
+      font-size: 1.4rem;
+    }
+    .rectangle-24003-4Nf {
+      height: 2rem;
+      border: solid 0.25rem #5041bc;
+      box-sizing: border-box;
+      border-radius: 0.7rem;
+      flex-shrink: 0;
+      margin-bottom: 0.2rem;
+      width: 2rem;
+    }
+  }
+  .destination-6q9 {
+    border-radius: 0.5rem;
+    width: 44.4rem;
+    height: 4.8rem;
+    position: absolute;
+    left: 71.1rem;
+    top: 105.1rem;
+
+    .form-ojZ {
+      line-height: 1.5;
+      color: #a098ae;
+      white-space: nowrap;
+      box-sizing: border-box;
+      padding: 1.5rem 1.077rem 1.2rem 1.077rem;
+      width: 100%;
+      height: 100%;
+      font-weight: 400;
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      font-size: 1.4rem;
+      font-family: Poppins, 'Source Sans Pro';
+    }
+  }
+  .filire-fmm {
+    width: 44.4rem;
+    height: 4.8rem;
+    position: absolute;
+    left: 71.1rem;
+    top: 111.4rem;
+    border-radius: 0.5rem;
+
+    .form-CWo {
+      color: #a098ae;
+      white-space: nowrap;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      padding: 1.5rem 1.077rem 1.2rem 1.077rem;
+      height: 100%;
+      font-size: 1.4rem;
+      font-weight: 400;
+      border: solid 0.1rem #c1bbeb;
+      box-sizing: border-box;
+      width: 100%;
+      line-height: 1.5;
+      font-family: Poppins, 'Source Sans Pro';
+    }
+  }
+  .ville-54o {
+    height: 4.8rem;
+    position: absolute;
+    left: 71.1rem;
+    top: 117.7rem;
+    border-radius: 0.5rem;
+    width: 44.4rem;
+
+    .form-oWb {
+      color: #a098ae;
+      font-family: Poppins, 'Source Sans Pro';
+      border: solid 0.1rem #c1bbeb;
+      background-color: #ffffff;
+      box-sizing: border-box;
+      height: 100%;
+      font-weight: 400;
+      line-height: 1.5;
+      white-space: nowrap;
+      border-radius: 0.5rem;
+      padding: 1.5rem 1.077rem 1.2rem 1.077rem;
+      width: 100%;
+      font-size: 1.4rem;
+    }
+  }
+}

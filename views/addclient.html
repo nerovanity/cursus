@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="icon" href="/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#000000" />
+      <title>AddClient</title>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat%3A600%2C700"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C600"
+      />
+      <link rel="stylesheet" href="./styles/addclient.css" />
+      <style>
+        .form-rhy:empty:before {
+          content: "Date de naissance";
+          color: #999;
+        }
+        .form-787:empty:before {
+          content: "lieu de naissance";
+          color: #999;
+        }
+        .form-oWb:empty:before {
+          content: "Ville";
+          color: #999;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="addclient-fwh">
+        <div class="rectangle-a35">
+          <div class="Logout-button">
+            <button id="logout" class="Logout">
+              <p class="logo-ut">Déconnexion</p>
+              <img src="./assets/logout.png" class="logout-icon" alt="logout" />
+            </button>
+          </div>
+        </div>
+        <p class="profil-sana-Vfq">Déconnexion</p>
+        <div class="divider-nQ3"></div>
+        <div class="divider-K95"></div>
+        <div class="group-1-F2j">
+          
+        </div>
+        <p class="title-Yvw"></p>
+        <div class="rectangle-TY7"></div>
+        <div class="frame-237693-Byu">
+          <div class="research-6qy">
+            <img
+              class="ion-person-outline-pmy"
+              src="./assets/ion-person-outline.png"
+            />
+            <p class="add-client-wrb">Add Client</p>
+          </div>
+        </div>
+        <div class="photo-FcP" style="display: none;">
+          <p class="photo-PTh">Photo</p>
+          <div class="form-WoD">
+            <p class="drag-and-drop-or-click-here-to-select-file-FF1">
+              Drag and drop or <br />
+              click here to select file
+            </p>
+            <input
+              type="file"
+              id="photoinput"
+              accept="image/*"
+              style="display: none"
+              onchange="handlePhoto(this.files)"
+            />
+            <button
+              class="butphoto"
+              onclick="document.getElementById('photoinput').click();"
+            >
+              Take Photo
+            </button>
+          </div>
+        </div>
+        <p class="informations-dtudient-7Y7">Informations d’étudient</p>
+        <p class="informations-du-parents-1Nb">Informations du Parents</p>
+        <div class="first-name-WKM">
+          <p class="nom-et-prnom-dum">Nom</p>
+          <input class="form-mm5" id="Nom" name="Nombox" />
+        </div>
+
+        <div class="prenom">
+          <p class="prnom-dum">Prénom</p>
+          <input class="form-pre" id="prenom" name="prenombox" />
+        </div>
+
+        <div class="first-name-FAT">
+          <p class="nom-et-prnom-MzB">Nom</p>
+          <input class="form-6B5" id="Nomparent" name="Nomparentbox" />
+        </div>
+
+        <div class="PrenoParent">
+          <p class="prnom-MzB">Prenom</p>
+          <input
+            class="form-Preparent"
+            id="Prenomparent"
+            name="Prenomparentbox"
+          />
+        </div>
+
+        <div class="date-birth-N8b">
+          <p class="date-et-lieu-de-naissance-JY3">Date de naissance</p>
+          <div class="form-q2B">
+            <input
+              class="form-rhy"
+              id="Datenaissance"
+              name="Datenaissancebox"
+            />
+            <input
+              class="form-787"
+              id="Lieunaissance"
+              name="Lieunaissancebox"
+            />
+          </div>
+        </div>
+
+        <p class="date-et-lieu-de-naissance-JY4">lieu de naissance</p>
+
+        <div class="date-birth-ZF1">
+          <p class="date-et-lieu-de-naissance-6Ew">C.I.N</p>
+          <div class="form-E6F">
+            <input class="form-z5R" id="Cinparent" name="Cinparentbox" />
+          </div>
+        </div>
+        <div class="email-XDm">
+          <p class="email-Tt7">Email</p>
+          <input class="form-owy" id="Emailstudent" name="Emailstudentbox" />
+        </div>
+        <div class="phone-swq">
+          <p class="tlephone-cuR">Télephone</p>
+          <input
+            class="form-m1d"
+            id="Telephonestudent"
+            name="Telephonestudentbox"
+          />
+        </div>
+        <div class="CIN-swq">
+          <p class="CIN-cuR">Filier</p>
+          <input class="form8-m1d" id="filiere" name="CINstudentbox" />
+        </div>
+        <p class="services-2TM">Services</p>
+        <div class="phone-9H5">
+          <p class="tlephone-5wR">Télephone</p>
+          <input class="form-dCF" id="Teleparent" name="Teleparentbox" />
+        </div>
+        <div class="address-7NK">
+          <p class="address-rao">Destination</p>
+          <input class="form-CPm" id="destination" name="lieurestubox" />
+        </div>
+        <div class="address-6EF">
+          <p class="address-RXR">lieu de résidence</p>
+          <input class="form-kJo" id="lieuresparent" name="lieureparbox" />
+        </div>
+        <div class="button-qLF">
+          <button id="ManageButton" class="draft-button-ZX9">Annuler</button>
+          <button class="submit-button-qjZ" id="submit">Submit</button>
+        </div>
+        <div class="group-237787-LRR">
+          <p class="Paiement-et-signature-cNw">
+            Paiement et signature d'engagement
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="PaiementCheckbox"
+            name="PaiSignCheckbox"
+            class="rectangle-23998-jCf"
+          />
+        </div>
+        <div class="form-pzo">
+          <div class="form-ZBh"></div>
+          <p class="traduction-tDy">
+            Fournir le LOGIN ET LE MDP au candidat
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="FournirCheckbox"
+            name="FournirloginCheckbox"
+            class="rectangle-23999-o63"
+          />
+        </div>
+        <div class="form-hhD">
+          <p class="logement-okF">Récupération des documents d'inscription</p>
+          <input
+            type="checkbox"
+            id="recuperationCheckbox"
+            name="recuperationdocuCheckbox"
+            class="rectangle-24000-8Xd"
+          />
+        </div>
+        <div class="form-Rmd">
+          <p class="inscription-et-suivi-LNo">
+            Effectuer l'inscription et demande d'admission conditionnelle
+          </p>
+          <input
+            type="checkbox"
+            id="EffectuerCheckbox"
+            name="EffectuerlinCheckbox"
+            class="rectangle-24001-G1Z"
+          />
+        </div>
+        <div class="form-jA3">
+          <p class="visa-zbm">Réception d'admission conditionnelle</p>
+          <input
+            type="checkbox"
+            id="ReceptionCheckbox"
+            name="ReceptionadmiCheckbox"
+            class="rectangle-24002-Has"
+          />
+        </div>
+        <div class="form-XVD">
+          <p class="etudes-ltranger-Bpf">
+            Demander le reçu de paiement ou le Swift de la transaction et
+            l'envoyer a l'université
+          </p>
+          <input
+            type="checkbox"
+            id="DemanderecuCheckbox"
+            name="DemanderRecuCheckbox"
+            class="rectangle-24003-4Nf"
+          />
+        </div>
+        <div class="form-pzoh">
+          <div class="form-44g"></div>
+          <p class="Recevoir-99f">
+            Recevoir l'acceptation finale après confirmation de réception de
+            virement par l'université
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="RecevoirCheckbox"
+            name="recevoiracceptCheckbox"
+            class="rectangle-ddf"
+          />
+        </div>
+        <div class="form-jfh">
+          <div class="form-55s"></div>
+          <p class="Prise-99">
+            Prise de RDV visa
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="PriseCheckbox"
+            name="PrisevisaCheckbox"
+            class="rectangle-vvz"
+          />
+        </div>
+        <div class="form-nbg">
+          <div class="form-11m"></div>
+          <p class="Montage-11">
+            Montage de dossier visa
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="MontageCheckbox"
+            name="MontagedeCheckbox"
+            class="rectangle-nnb"
+          />
+        </div>
+        <div class="form-hhp">
+          <div class="form-57l"></div>
+          <p class="Depot-11">
+            Dépôt de demande de visa
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="DepotCheckbox"
+            name="DepoteCheckbox"
+            class="rectangle-ppi"
+          />
+        </div>
+        <div class="form-ssd">
+          <div class="form-7s7"></div>
+          <p class="Retrait-11">
+            Retrait de décision
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="RetraitCheckbox"
+            name="RetraiteCheckbox"
+            class="rectangle-bba"
+          />
+        </div>
+        <div class="form-drf">
+          <div class="form-pqp"></div>
+          <p class="Preparation-11">
+            Préparation des documents de voyage
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="PreparationCheckbox"
+            name="PreparationsCheckbox"
+            class="rectangle-ctp"
+          />
+        </div>
+        <div class="form-qxs">
+          <div class="form-qda"></div>
+          <p class="Reservation-11">
+            Réservation de billet d'avion
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="ReservationCheckbox"
+            name="ReservationsCheckbox"
+            class="rectangle-1s4"
+          />
+        </div>
+        <div class="form-dka">
+          <div class="form-hqe"></div>
+          <p class="Pick-11">
+            Pick-up aéroport
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="PickupCheckbox"
+            name="PickupaerCheckbox"
+            class="rectangle-8aj"
+          />
+        </div>
+        <div class="form-qdz">
+          <div class="form-pec"></div>
+          <p class="Deposerle-11">
+            Déposer l'étudiant a l'hôtel ou à la cite universitaire
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="DeposerCheckbox"
+            name="DeposerleCheckbox"
+            class="rectangle-9as"
+          />
+        </div>
+        <div class="form-uuh">
+          <div class="form-gfe"></div>
+          <p class="finalisation-11">
+            Finalisation d'inscription a l'université
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="finalCheckbox"
+            name="finaliCheckbox"
+            class="rectangle-4dw"
+          />
+        </div>
+        <div class="form-naw">
+          <div class="form-ost"></div>
+          <p class="Recherche-08">
+            Recherche des offres de location
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="RechercheCheckbox"
+            name="RecherchesesCheckbox"
+            class="rectangle-5q0"
+          />
+        </div>
+        <div class="form-pmk">
+          <div class="form-vcx"></div>
+          <p class="Ouverte-08">
+            Ouverture du compte bancaire
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="OuvertsCheckbox"
+            name="ouvertursCheckbox"
+            class="rectangle-9b4"
+          />
+        </div>
+        <div class="form-mbe">
+          <div class="form-ntw"></div>
+          <p class="Ouverte-08">
+            Tour de ville
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="TourCheckbox"
+            name="ToursCheckbox"
+            class="rectangle-2q9"
+          />
+        </div>
+        <div class="form-pzb">
+          <div class="form-mrn"></div>
+          <p class="Ouverte-08">
+            Fin de service
+            <br />
+          </p>
+          <input
+            type="checkbox"
+            id="FinCheckbox"
+            name="FindeCheckbox"
+            class="rectangle-9x9"
+          />
+        </div>
+      </div>
+
+      <script>
+        window.addEventListener("DOMContentLoaded", (event) => {
+          const checkbox = document.getElementById("etuCheckbox");
+          const destinationSelect = document.getElementById("destination");
+          const filliereSelect = document.getElementById("filliere");
+          const villeField = document.querySelector(".ville-54o .form-oWb");
+
+          villeField.contentEditable = false;
+
+          checkbox.addEventListener("change", function () {
+            if (this.checked) {
+              destinationSelect.disabled = false;
+              filliereSelect.disabled = false;
+              villeField.contentEditable = true;
+            } else {
+              destinationSelect.disabled = true;
+              filliereSelect.disabled = true;
+              villeField.contentEditable = false;
+            }
+          });
+        });
+
+        function handlePhoto(files) {
+          const selectedPhoto = files[0];
+          if (selectedPhoto) {
+            const imgElement = document.createElement("img");
+            imgElement.src = URL.createObjectURL(selectedPhoto);
+
+            imgElement.classList.add(
+              "custom-width",
+              "custom-height",
+              "custom-config"
+            );
+
+            document.body.appendChild(imgElement);
+          }
+        }
+
+        document
+          .getElementById("ManageButton")
+          .addEventListener("click", function () {
+            window.location.href = "homepage.html";
+          });
+      </script>
+      <script src="./scriptes/addclient.js"></script>
+    </body>
+  </html>
+</html>

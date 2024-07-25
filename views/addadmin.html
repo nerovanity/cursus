@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>AdminPage</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C600"/>
+  <link rel="stylesheet" href="./styles/adminpage.css"/>
+  <style>
+    .form-aDh:empty:before {
+      content: "Admin Nom et Prénom";
+      color: #999; 
+    }
+  </style>
+</head>
+<body>
+<div class="adminpage-xu9">
+  <div class="rectangle-5ym">
+  </div>
+  <div class="divider-Dq5">
+  </div>
+  <div class="divider-x1y">
+  </div>
+  <div class="group-1-tgK">
+    <div class="dashboard-d87">
+      <img class="user-plus-M47" src="./assets/user-plus.png"/>
+      <p class="add-admin-UuR">Add Admin</p>
+    </div>
+  </div>
+  <div class="rectangle-HM5">
+  </div>
+  <p class="profil-sana-c8T">Déconnexion</p>
+  <div class="first-name-KYf">
+    <p class="nom-et-prnom-rYb">Nom Admin</p>
+    <input class="form-aDh" id="Adminnom" name="Adminnamebox" >
+  </div>
+  <div class="Prenom-Adimn">
+    <p class="prnom-rYb">Prenom Admin</p>
+    <input class="form-prenom" id="Adminprenom" name="Adminprenombox" >
+  </div>
+  <div class="email-Adimn">
+    <p class="prnom-rYb">email</p>
+    <input class="form-prenom" id="email" name="email" >
+  </div>
+  <div class="form-T2b">
+  </div>
+  <label for="adminRadio" class="admin-sMD">employ</label>
+  <input type="radio" id="employRadio" name="role" class="rectangle-24003-Bsh" value="employ">
+  <div class="line-2-Wf5">
+  </div>
+
+
+  <label for="superAdminRadio" class="super-admin-eWP">Admin</label>
+  <input type="radio" id="AdminRadio" name="role" class="rectangle-24004-NBV" value="admin">
+  <div class="button-tQj">
+    <button id="ManageButtone" class="draft-button-RfZ" >Annuler</button>
+    <button class="submit-button-uKq" id="submit">Submit</button>
+  </div>
+  <div class="group-2-nPd">
+    <div class="dashboard-iYB" id="adminlist">
+      <img class="address-book-qMu" src="./assets/address-book-uyV.png"/>
+      <p class="liste-admin-A9H">Liste Admin</p>
+    </div>
+  </div>
+  <div class="arrow-left-rno">
+  </div>
+  <div class="rectangle"></div>
+
+  <div class="Logout-button">
+    <button id="logout" class="Logout"><p class="logo-ut">Déconnexion</p><img src="./assets/logout.png" class="logout-icon" alt="logout"></button>
+  </div>
+
+  <script src="./scriptes/addadmin.js"></script>
+</div>
+</body>
+</html>

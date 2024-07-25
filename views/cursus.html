@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/cursus.css">
+    <title>Cursus</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <p class="menu"></p>
+        <div class="line"></div>
+        <div class="rectan12"></div>
+        <p class="cursus-navbar">Cursus</p>
+        <img src="./assets/gradu.png" class="gradu-icon" alt="GraduIcon">
+        <div class="line2"></div>
+        <p class="Deco">Déconnexion</p>
+        <div class="Logout-button">
+          <button id="logout" class="Logout"><p class="logo-ut">Se déconnecter</p><img src="./assets/logout.png" class="logout-icon" alt="déconnexion"></button>
+        </div>
+    </div>
+
+    <div class="Page">
+        <div class="loader-container" id="loader">
+            <div class="loader"></div>
+          </div>
+        <div class="Name-zone" id="name"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>Terminé</th>
+                    <th>En cours</th>
+                    <th>Échec</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>{service}</td></tr>
+            </tbody>
+        </table>
+        <div class="button-qLF">
+            <button id="ManageButton" class="draft-button-ZX9">Annuler</button>
+            <button class="submit-button-qjZ" id="submit">Submit</button>
+        </div>
+        
+    </div>
+
+<script src="./scriptes/cursus.js"></script>
+</body>
+</html>
